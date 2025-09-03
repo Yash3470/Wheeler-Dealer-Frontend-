@@ -24,7 +24,7 @@ const Brandshome = () => {
 
     useEffect(() => {
         getAllBrand();
-    })
+    },[]) 
     return (
         <div>
             <section id="brands" className="brand_wrapper">
